@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="9C26019A-DE8A-7EF8-B65B-F90B7859F34F">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:31:22 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Agenda_RM96971</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

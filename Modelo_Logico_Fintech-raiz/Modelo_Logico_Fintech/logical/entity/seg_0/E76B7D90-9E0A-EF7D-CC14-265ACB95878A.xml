@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E76B7D90-9E0A-EF7D-CC14-265ACB95878A" name="T_FTH_ENDERECO">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:37:38 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_endereco" id="9D98EE44-808F-B7BA-2368-23376B45D685">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:42:44 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cpf" id="CB4BD2B4-15D9-BDCD-7CC2-619BD893D456">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:52:46 UTC</createdTime>
+<generatorID>20DFE8F8-01BE-CBF8-8CEC-2129A01DC1C1</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<referedAttribute>1B668077-92AF-0236-C8C1-6C7F7A8E7FE9</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_endereco" id="64AFAF04-80C9-09FE-3B44-E1AD3F749BFD">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:38:07 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_logradouro" id="0887B759-FAB6-D387-A2FB-5A033A887501">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:37:49 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="D92944A0-FF72-183B-D5C5-2C0F67C4F4EE">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:38:29 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="3E450FF6-35B4-F24F-443B-296F74AAD398">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:39:10 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_numero" id="692667BE-52A3-36B6-F74B-EBEF9D424658">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:39:36 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pais" id="7CB0A416-787E-038E-49D1-D2B98C766AE9">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:39:18 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="31162E97-749E-A22C-05A7-B1D39B4366A9">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:39:27 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="E3332F6C-FD37-BD4B-6350-8FD17091500A">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:40:06 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="6561C993-F6E9-514B-65D3-F1BEF1B9E4C8">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:39:54 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CFA2CCF-6A3C-9FC4-2202-57A8DDBD9A35" name="T_ENDERECO PK">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:42:50 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D98EE44-808F-B7BA-2368-23376B45D685</attributeRef>
+<attributeRef>CB4BD2B4-15D9-BDCD-7CC2-619BD893D456</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

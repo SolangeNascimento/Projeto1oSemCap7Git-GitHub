@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F5882D2-45A8-AEC7-C63B-98459668886A" name="T_FTH_TELEFONE">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>CC060B8A-B15C-1024-3DAB-E89F8CB798CD</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_ddi" id="BCA1E714-8F45-1FB8-ED2D-FD43EF43E0D6">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>EDDE84AD-0FB1-4BE2-B722-0B52E7AF952C</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddd" id="88BC8E2F-DB0F-81F9-23CB-015335584A73">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>04CCFEC7-C463-FA80-C0D2-876F7AC2E1CE</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="854D422C-C9C6-7D8B-6BF6-F0D87FE3F3D5">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>E75D1CBD-15C8-B9E1-4E51-3E040A3B665A</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FTH_USUARIO_cd_cpf" id="94392B03-14D6-0766-7F6B-B0781BF18195">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>02295EB5-3B98-F32D-B37E-5CF44F7E1155</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3C283A8-25DE-90A3-3719-8C2DADF72FF4" referredColumn="ED997E03-65DA-8927-9952-CC1D032DB52D"/>
+</associations>
+</Column>
+<Column name="ds_tipo_telefone" id="92C1142E-7536-3FA3-24C0-F5C32E2510A0">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>7B87C2B9-D65E-E831-C671-2FE95A50CD50</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98ACE6A7-9134-0E72-41F2-C8A516638577" name="T_FTH_TELEFONE_PK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>BCA6DED1-28C0-AB9F-A0CF-1C06A47AA74E</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCA1E714-8F45-1FB8-ED2D-FD43EF43E0D6"/>
+<colUsage columnID="88BC8E2F-DB0F-81F9-23CB-015335584A73"/>
+<colUsage columnID="94392B03-14D6-0766-7F6B-B0781BF18195"/>
+<colUsage columnID="854D422C-C9C6-7D8B-6BF6-F0D87FE3F3D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9B4671A-9A02-B7DC-3820-48366BB1E0AC" name="T_FTH_TELEFONE_T_FTH_USUARIO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>7F8D31C2-3F9E-8B8C-AB20-87C1CE5D51C3</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94392B03-14D6-0766-7F6B-B0781BF18195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

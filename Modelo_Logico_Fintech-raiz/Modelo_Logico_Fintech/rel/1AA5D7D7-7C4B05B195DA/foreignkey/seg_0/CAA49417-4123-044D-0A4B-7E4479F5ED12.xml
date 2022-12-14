@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CAA49417-4123-044D-0A4B-7E4479F5ED12" containerWithKeyObject="CB27C8DE-4BF1-C1D9-A510-B2CC044BCDE5" localFKIndex="552295C6-0D3E-4656-A984-3BF49C69453A" name="T_FTH_RECEBIMENTO_T_FTH_TP_RECEBIMENTO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>042B618A-CBFB-6F6A-A0E4-0E80644D47D1</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<referredTableLongName>T_FTH_TP_RECEBIMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A30CDD3D-8F7C-26F3-87A4-E137C16287EC</referredTableID>
+<keyObject>5D6F2B49-C1A8-10F6-C6B8-610777970B6B</keyObject>
+<referredKeyID>5D6F2B49-C1A8-10F6-C6B8-610777970B6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tp_recebimento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

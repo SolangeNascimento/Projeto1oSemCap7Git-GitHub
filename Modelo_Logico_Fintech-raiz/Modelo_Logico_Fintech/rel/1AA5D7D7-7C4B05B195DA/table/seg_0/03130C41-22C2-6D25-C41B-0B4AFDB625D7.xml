@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03130C41-22C2-6D25-C41B-0B4AFDB625D7" name="T_FTH_GASTO">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>567BCF93-9CB8-0CBB-5D40-C310719B91B9</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_gasto" id="D6E9D556-C2E9-D18A-7114-896754A4A45B">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>87051FD4-9D3C-B88F-6AB8-894D04EF66EC</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FTH_USUARIO_cd_cpf" id="22DA46F5-8C7F-DB67-3E71-47E4E62AD092">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>EA0AA07D-D761-2C46-0449-9A3AA821117E</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06AB3C8F-160C-7FF1-BEEF-2160712ACBBE" referredColumn="ED997E03-65DA-8927-9952-CC1D032DB52D"/>
+</associations>
+</Column>
+<Column name="T_FTH_TP_GASTO_cd_tp_gasto" id="00FFBF98-D7B9-1D3E-8294-7DAABB39FE20">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>3DD20FB4-D6BB-815A-8660-761AA7D9A361</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F961D06-658B-D211-7EE4-3B79D8BD8907" referredColumn="FAB8AD71-2146-66D5-F23F-977A63A5C5CE"/>
+</associations>
+</Column>
+<Column name="ds_gasto" id="4E603694-9E73-A1CE-A875-B26163EF01FC">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>D8AED09A-6272-F593-84BD-99CCC705DA53</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_gasto" id="AF8A143C-C007-3A7C-D0D7-B0537BF96B6A">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>B2B7FF3A-5C84-ABEA-33F5-3130A5BDD0F0</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_gasto" id="1C3DE40F-78A5-F290-C6AE-D21982322A1F">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>ACC9870B-31BB-74E9-2005-BF441CBC9B42</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC5E336D-8389-AA03-9CAC-B14D7589B65F" name="T_FTH_GASTO_PK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>6DA3F159-6FA3-E869-9415-92C443BA97A7</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E9D556-C2E9-D18A-7114-896754A4A45B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="033FE21B-1CB2-A659-D5B3-387785C0004E" name="T_FTH_GASTO_T_FTH_TP_GASTO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>97B0A6D7-CE5E-3F08-93F0-B0B21660FC53</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00FFBF98-D7B9-1D3E-8294-7DAABB39FE20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE309C66-8355-ADB9-7A5C-F48D03D34E67" name="T_FTH_GASTO_T_FTH_USUARIO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>1EB36D1A-8673-56A7-FA31-43704F667950</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22DA46F5-8C7F-DB67-3E71-47E4E62AD092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

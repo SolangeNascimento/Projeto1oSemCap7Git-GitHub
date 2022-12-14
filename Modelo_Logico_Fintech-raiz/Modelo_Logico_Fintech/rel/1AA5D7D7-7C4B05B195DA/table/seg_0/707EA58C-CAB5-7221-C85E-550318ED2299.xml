@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="707EA58C-CAB5-7221-C85E-550318ED2299" name="T_FTH_EMAIL">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>BCEC2985-E336-983D-988D-5E0F8FBA2ACB</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_email" id="13D052AC-F92D-1DF5-FA1A-B1978AC59BEB">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>1C026718-3D1E-EA39-9C9D-06C964354DA2</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FTH_USUARIO_cd_cpf" id="89226ED5-DB63-5559-C412-BAEC19747519">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>49D052D9-C82A-55D2-BA5F-3946365E844C</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5750B47-1D5C-DE72-EA6A-8EED5B71B522" referredColumn="ED997E03-65DA-8927-9952-CC1D032DB52D"/>
+</associations>
+</Column>
+<Column name="ds_email" id="131CA4BD-E34B-964F-25D2-6CE560136881">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>F7183947-8B45-59D0-1806-BD7C1A992DAB</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_email" id="56D775E2-3E9E-0800-2293-13BFABF8EACB">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>452A8352-A39B-EDDA-AC35-1CC66C1CC825</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3EE74B5-A13C-8A90-AB41-9CD2B90D63D2" name="T_FTH_EMAIL_PK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>ED281888-B4D4-A2DD-CDB6-C8CE12269F89</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89226ED5-DB63-5559-C412-BAEC19747519"/>
+<colUsage columnID="13D052AC-F92D-1DF5-FA1A-B1978AC59BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56C8E959-A246-7135-BD0C-EE19B699F7D9" name="T_FTH_EMAIL_T_FTH_USUARIO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>4F5F48DA-D697-D466-3B57-C60E45A8CC8B</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89226ED5-DB63-5559-C412-BAEC19747519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

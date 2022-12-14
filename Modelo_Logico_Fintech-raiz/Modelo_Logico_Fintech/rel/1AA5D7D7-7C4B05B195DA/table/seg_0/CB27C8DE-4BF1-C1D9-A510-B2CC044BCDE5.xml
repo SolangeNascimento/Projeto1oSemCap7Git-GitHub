@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB27C8DE-4BF1-C1D9-A510-B2CC044BCDE5" name="T_FTH_RECEBIMENTO">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>759ED38A-495E-56EE-7EB1-AF7F38DF0254</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_recebimento" id="72C4B6C5-0C30-3D0B-83BF-E9F119F63E3E">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>FC1ABFA4-E835-8168-4F76-5820032A07B0</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FTH_USUARIO_cd_cpf" id="C2927AF4-0685-A80C-E74A-F0F04E066D5E">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>CE3103D3-4C21-CBDB-591E-782696A1EE4F</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69B63F86-E324-7288-043F-BAAAC0341E40" referredColumn="ED997E03-65DA-8927-9952-CC1D032DB52D"/>
+</associations>
+</Column>
+<Column name="T_FTH_TP_RECEBIMENTO_cd_tp_recebimento" id="D5A2D624-10D0-F130-2CDE-B991A2FE65E2">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>B537B88C-EEBB-8823-5FBA-81CDCA40894E</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAA49417-4123-044D-0A4B-7E4479F5ED12" referredColumn="AA7267CB-8C88-DD97-DC65-E81EB01FF385"/>
+</associations>
+</Column>
+<Column name="T_FTH_INVEST_cd_invest" id="FBE41B6C-3107-5D32-2D79-E972ABE53D32">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>2331A06E-08F0-CA88-A96B-B539C78613E5</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C19D5C65-2823-8040-4C16-C5F1D568569A" referredColumn="57EC862A-06C0-B1AD-6EDD-B16BF7999975"/>
+</associations>
+</Column>
+<Column name="ds_recebimento" id="8A11DDAA-0692-429C-C8F6-F517EBCB882E">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>8B8C1766-7C17-072F-8540-B9A42819AB96</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_recebimento" id="411CF294-219F-B2C7-B02A-2F5AFD60B6F1">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>5888C904-8B34-1FB0-8470-EE1A4FBD6136</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_recebimento" id="DF8F39F7-85D4-3BE8-F06C-85FB34DC51E9">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>7581B7D6-3DE0-9804-C94D-0ED890127388</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF000DFE-4B5A-AD1E-6313-662D3D71A967" name="T_FTH_RECEBIMENTO_PK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>DE9E19A6-590E-8F0D-3E90-78B175794EF1</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C4B6C5-0C30-3D0B-83BF-E9F119F63E3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="552295C6-0D3E-4656-A984-3BF49C69453A" name="T_FTH_RECEBIMENTO_T_FTH_TP_RECEBIMENTO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>042B618A-CBFB-6F6A-A0E4-0E80644D47D1</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A2D624-10D0-F130-2CDE-B991A2FE65E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="773E1607-8D6C-7CA4-4E9D-3BCA31860EEB" name="T_FTH_RECEBIMENTO_T_FTH_USUARIO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>0330B77D-6F9C-8193-8598-67C99AC0D57F</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2927AF4-0685-A80C-E74A-F0F04E066D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB3DBCDE-F000-FDFD-1543-935DA9E9DA28" name="T_FTH_RECEBIMENTO_T_FTH_INVEST_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>88DABFA0-A05F-42A4-1750-8732547369CC</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBE41B6C-3107-5D32-2D79-E972ABE53D32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuirv6" directorySegmentName="seg_0" id="094A0D2A-AB68-DC49-8C41-8D54AA7E5C3C">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:42:58 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<sourcePk>6152D981-B637-58CA-7773-CCC23336DCA6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8CDC5A48-0E74-64F7-EEC4-2FADF419DF89</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>412B4E72-9D54-32A3-67E5-2DCC873D1455</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

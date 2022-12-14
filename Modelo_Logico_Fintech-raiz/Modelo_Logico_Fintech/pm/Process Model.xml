@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="CFF6482D-0A42-7C90-AD92-4D0ED1AFDBC3">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:31:22 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Agenda_RM96971</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

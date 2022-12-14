@@ -1,0 +1,61 @@
+
+.container-xxl{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:  rgb(114,3,225);
+    background-image: var(--bs-gradient);
+    color: whitesmoke;
+
+}
+
+main{
+    background-color:  rgb(114,3,225);
+    background-image: var(--bs-gradient);
+    color: whitesmoke;
+}
+
+footer{
+    background-color:  rgb(114,3,225);
+    background-image: var(--bs-gradient);
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+img[class=img-fluid]{
+    opacity: 15%;
+
+}
+#imgdash1{
+    opacity: 80%;
+}
+.card-body{
+    color: black;
+}
+#divheader{
+    font-size: xx-large;
+}
+#imglogin{
+    width: 10em;
+    height: 10em;
+    opacity: 60%;
+}
+
+#divmaincard1, #divmaincard2, #divmaincard3, #divmaincartao1{
+    background-color:  rgb(114,3,225);
+    background-image: var(--bs-gradient);
+    border-color: transparent;
+}
+
+#imgmain1, #imgmain2, #imgmain3, #divdashmenu{
+    width: 10em;
+    height: 10em;
+    opacity: 60%;
+    
+}
+
+#imgdashicon1{
+    width: 1.5em;
+    height: 1.5em;
+}

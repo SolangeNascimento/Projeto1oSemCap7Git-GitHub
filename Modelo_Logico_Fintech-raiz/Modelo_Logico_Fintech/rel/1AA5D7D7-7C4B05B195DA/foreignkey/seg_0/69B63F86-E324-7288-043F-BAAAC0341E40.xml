@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69B63F86-E324-7288-043F-BAAAC0341E40" containerWithKeyObject="CB27C8DE-4BF1-C1D9-A510-B2CC044BCDE5" localFKIndex="773E1607-8D6C-7CA4-4E9D-3BCA31860EEB" name="T_FTH_RECEBIMENTO_T_FTH_USUARIO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>0330B77D-6F9C-8193-8598-67C99AC0D57F</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<referredTableLongName>T_FTH_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A973249-977B-E30D-6DD7-966CB92D05BE</referredTableID>
+<keyObject>7BEC1194-86B2-EB7A-13DB-68DF4D5B08B3</keyObject>
+<referredKeyID>7BEC1194-86B2-EB7A-13DB-68DF4D5B08B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cpf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

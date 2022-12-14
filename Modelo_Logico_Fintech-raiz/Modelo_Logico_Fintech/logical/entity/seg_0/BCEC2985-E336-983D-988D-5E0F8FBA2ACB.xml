@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCEC2985-E336-983D-988D-5E0F8FBA2ACB" name="T_FTH_EMAIL">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:36:29 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_email" id="1C026718-3D1E-EA39-9C9D-06C964354DA2">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:36:41 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cpf" id="49D052D9-C82A-55D2-BA5F-3946365E844C">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:50:07 UTC</createdTime>
+<generatorID>4F5F48DA-D697-D466-3B57-C60E45A8CC8B</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<referedAttribute>1B668077-92AF-0236-C8C1-6C7F7A8E7FE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="F7183947-8B45-59D0-1806-BD7C1A992DAB">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:37:03 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_email" id="452A8352-A39B-EDDA-AC35-1CC66C1CC825">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:37:16 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED281888-B4D4-A2DD-CDB6-C8CE12269F89" name="T_EMAIL PK">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:37:00 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49D052D9-C82A-55D2-BA5F-3946365E844C</attributeRef>
+<attributeRef>1C026718-3D1E-EA39-9C9D-06C964354DA2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

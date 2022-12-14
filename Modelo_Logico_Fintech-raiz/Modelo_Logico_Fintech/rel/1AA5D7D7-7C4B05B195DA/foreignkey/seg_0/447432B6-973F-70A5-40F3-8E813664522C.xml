@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="447432B6-973F-70A5-40F3-8E813664522C" containerWithKeyObject="58F5BA02-35E8-1C28-71D4-518216B50863" localFKIndex="A610B9A4-0488-2D73-D446-313234934A96" name="T_FTH_INVEST_T_FTH_USUARIO_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>4F4B6C0C-0016-6491-988F-C73FC5DDFE34</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<referredTableLongName>T_FTH_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A973249-977B-E30D-6DD7-966CB92D05BE</referredTableID>
+<keyObject>7BEC1194-86B2-EB7A-13DB-68DF4D5B08B3</keyObject>
+<referredKeyID>7BEC1194-86B2-EB7A-13DB-68DF4D5B08B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cpf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

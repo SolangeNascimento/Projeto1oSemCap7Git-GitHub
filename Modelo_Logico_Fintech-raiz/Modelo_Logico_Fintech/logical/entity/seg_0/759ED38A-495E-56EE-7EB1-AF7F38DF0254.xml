@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="759ED38A-495E-56EE-7EB1-AF7F38DF0254" name="T_FTH_RECEBIMENTO">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:29:56 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_recebimento" id="FC1ABFA4-E835-8168-4F76-5820032A07B0">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:30:16 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cpf" id="CE3103D3-4C21-CBDB-591E-782696A1EE4F">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:33:14 UTC</createdTime>
+<generatorID>0330B77D-6F9C-8193-8598-67C99AC0D57F</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<referedAttribute>1B668077-92AF-0236-C8C1-6C7F7A8E7FE9</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tp_recebimento" id="B537B88C-EEBB-8823-5FBA-81CDCA40894E">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:32:08 UTC</createdTime>
+<generatorID>042B618A-CBFB-6F6A-A0E4-0E80644D47D1</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<referedAttribute>2B3B0089-B784-2266-63F4-FB0E72393BF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_invest" id="2331A06E-08F0-CA88-A96B-B539C78613E5">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:06:21 UTC</createdTime>
+<generatorID>88DABFA0-A05F-42A4-1750-8732547369CC</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E6845034-B7CA-E51C-EEED-A40A780E3763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_recebimento" id="8B8C1766-7C17-072F-8540-B9A42819AB96">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:30:27 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_recebimento" id="5888C904-8B34-1FB0-8470-EE1A4FBD6136">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:30:39 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_recebimento" id="7581B7D6-3DE0-9804-C94D-0ED890127388">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:30:58 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE9E19A6-590E-8F0D-3E90-78B175794EF1" name="T_FTH_RECEBIMENTO PK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:30:26 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC1ABFA4-E835-8168-4F76-5820032A07B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

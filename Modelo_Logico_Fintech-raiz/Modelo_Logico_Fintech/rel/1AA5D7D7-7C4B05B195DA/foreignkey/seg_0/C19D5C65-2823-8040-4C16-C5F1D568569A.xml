@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C19D5C65-2823-8040-4C16-C5F1D568569A" containerWithKeyObject="CB27C8DE-4BF1-C1D9-A510-B2CC044BCDE5" localFKIndex="CB3DBCDE-F000-FDFD-1543-935DA9E9DA28" name="T_FTH_RECEBIMENTO_T_FTH_INVEST_FK">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 02:28:28 UTC</createdTime>
+<generatorID>88DABFA0-A05F-42A4-1750-8732547369CC</generatorID>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<referredTableLongName>T_FTH_INVEST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58F5BA02-35E8-1C28-71D4-518216B50863</referredTableID>
+<keyObject>3931388B-2505-69D7-3AD9-F7B102F1E1BA</keyObject>
+<referredKeyID>3931388B-2505-69D7-3AD9-F7B102F1E1BA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cd_invest</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

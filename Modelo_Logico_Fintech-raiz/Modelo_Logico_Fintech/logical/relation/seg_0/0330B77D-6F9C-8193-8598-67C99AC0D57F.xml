@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="terv2" directorySegmentName="seg_0" id="0330B77D-6F9C-8193-8598-67C99AC0D57F">
+<createdBy>solna</createdBy>
+<createdTime>2022-11-16 01:33:14 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Fintech_RM96971</ownerDesignName>
+<engineerTo>
+<item key="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" value="true"/>
+</engineerTo>
+<sourcePk>5EB0F4DF-3136-557C-5D55-8ADD734B944E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74F92790-2911-F0D3-A4C8-881B24FB5A18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>759ED38A-495E-56EE-7EB1-AF7F38DF0254</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

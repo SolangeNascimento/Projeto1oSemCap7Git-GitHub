@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="106AE83D-0649-A641-88A7-CC0589B6C0AD" mainViewID="AE815926-9757-2858-9B91-CDDE0F226AD7">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:31:22 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Agenda_RM96971</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

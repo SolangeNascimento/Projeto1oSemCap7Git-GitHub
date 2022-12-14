@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="1AA5D7D7-CE2E-16E1-DE48-7C4B05B195DA" mainViewID="EEC3DF6D-00EC-F9BA-7639-984CD1B5F449">
+<createdBy>solna</createdBy>
+<createdTime>2022-10-25 00:31:23 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Agenda_RM96971</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
